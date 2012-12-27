@@ -79,6 +79,9 @@ class Exposed(RenderPrimitive):
 class NoFluids(RenderPrimitive):
     name = "no-fluids"
 
+class Tracks(RenderPrimitive):
+    name = "tracks"
+
 class EdgeLines(RenderPrimitive):
     name = "edge-lines"
     options = {
